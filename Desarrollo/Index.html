@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorfly Studio - Generador de paletas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>Colorfly Studio - Generador de paletas</h1>  
+    </header>
+
+    <main>
+        <!-- Panel de controles -->
+        <section class="colores">
+            <label for="color">Tamaño de paleta:</label> 
+            <select name="color" id="color"> 
+                <option value="6">6 colores</option>
+                <option value="8">8 colores</option>
+                <option value="9">9 colores</option>
+            </select>
+
+            <label for="format">Formato:</label>
+            <select name="format" id="format">
+                <option value="rgba">RGBA</option>
+                <option value="hex">HEX</option>
+            </select> 
+
+            <button id="boton">Generar paleta</button>
+        </section>
+
+        <!-- Contenedor donde se generan los colores -->
+        <section id="colorBox" class="cajaColor"></section>
+
+        <!-- Elemento para Microfeedback -->
+        <div id="toast" class="toast hidden">¡Paleta generada con éxito!</div>
+    </main>
+
+    <footer>2026 - Juan Lombana</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
