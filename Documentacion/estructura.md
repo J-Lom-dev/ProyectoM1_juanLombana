@@ -69,4 +69,3 @@ Registro detallado del uso de inteligencia artificial (Google Gemini) como asist
 
 Documento principal ubicado en la raíz del proyecto. Sirve de presentación en el repositorio de GitHub e incluye la descripción de la app, el manual de uso, el alcance del proyecto (MVP) y la información del autor.   
 
-- [Volver al README] (../README.md)
