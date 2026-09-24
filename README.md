@@ -77,6 +77,25 @@ Al hacer clic sobre cualquiera de las tarjetas de color, el código visualizado 
 
 ---
 
+## 💻 Ejecutar en local
+
+Este proyecto no requiere de dependencias ni servidor especial, ya instalación que desarrollado sain HTML, CSS y JavaScript puro.
+
+**Pasos:**
+
+1. Cloná el repositorio:
+
+git clone https://github.com/J-Lom-dev/ProyectoM1_juanLombana.git
+
+2. Ingresá a la carpeta del proyecto:
+
+cd ProyectoM1_juanLombana
+
+3. Abrí el archivo index.html Directo en tu navegador:
+
+Hacé doble clic en index.html, o Si tenés la extensión Live Server en VS Code, hacé derecho clic sobre index.html y oprimir la opcion de **Open with live server**
+
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5:** Estructuración semántica del documento.
